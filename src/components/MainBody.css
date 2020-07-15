@@ -1,0 +1,46 @@
+.Main {
+    background-color: #1b1b2f;
+    margin: 10vh 35vh;
+    height: 75vh;
+    border: 1px solid #e43f5a;
+    border-radius: 10px;
+}
+  
+  .Main img{
+    height: 15vh;
+    margin: 4vh 54vh;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .Main img:hover{
+    transform: scale(1.2);
+    transform: translateXY(2vh);
+  }
+  
+  .Main .Navbar {
+    margin: 0vh 35vh;
+  }
+  
+  .Main a{
+    margin: 0vh 5vh;
+  }
+  
+  .Main .iconSet{
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .Main .iconSet:hover{
+    transform: scale(1.2);
+    transform: translateXY(10vh);
+  }
+  
+  .Main > .About > p{
+    color: #fff;
+    font-size: 3vh;
+  }
+
+  .Main {
+    position: absolute;
+    top: 0px;
+  }
