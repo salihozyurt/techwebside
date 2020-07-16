@@ -3,5 +3,17 @@
   padding: 0;
 }
 
-body {background: black;}
-canvas {display:block;}
+body {
+  background: black;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+.App {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}

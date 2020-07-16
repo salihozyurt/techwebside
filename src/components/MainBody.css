@@ -1,46 +1,63 @@
 .Main {
-    background-color: #1b1b2f;
-    margin: 10vh 35vh;
-    height: 75vh;
-    border: 1px solid #e43f5a;
-    border-radius: 10px;
+  font-family: monospace;
+  width: 40vw;
+  margin: 10vw 30vw;
+  background-color: #1b1b2f;
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  border: 1px solid #e43f5a;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
 }
-  
-  .Main img{
-    height: 15vh;
-    margin: 4vh 54vh;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .Main img:hover{
-    transform: scale(1.2);
-    transform: translateXY(2vh);
-  }
-  
-  .Main .Navbar {
-    margin: 0vh 35vh;
-  }
-  
-  .Main a{
-    margin: 0vh 5vh;
-  }
-  
-  .Main .iconSet{
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .Main .iconSet:hover{
-    transform: scale(1.2);
-    transform: translateXY(10vh);
-  }
-  
-  .Main > .About > p{
-    color: #fff;
-    font-size: 3vh;
-  }
 
-  .Main {
-    position: absolute;
-    top: 0px;
-  }
+.Main:hover {
+  transform: scale(1.4);
+  transform: translateXY(2vh);
+  background-color: #1b1b2f8c;
+}
+
+.Main img {
+  height: 15vh;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.Main img:hover {
+  transform: scale(1.2);
+  transform: translateXY(2vh);
+}
+
+.Main .Navbar {
+  text-align: center;
+}
+
+.Main a {
+  margin: 15vw auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  display: inline;
+  margin: 0vh 5vh;
+}
+
+.Main .iconSet {
+  transition: all 0.3s ease-in-out;
+}
+
+.Main .iconSet:hover {
+  transform: scale(1.2);
+  transform: translateXY(10vh);
+}
+
+.Main > .About > p {
+  margin: 30px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.Main {
+  position: absolute;
+  top: 0px;
+}

@@ -16,7 +16,7 @@ export class MainBody extends Component {
                     <a href="mailto:salih.zyurt@gmail.com" target = "_blank"><Feather.Mail className="iconSet" color="#e43f5a" size="7vh" /></a> 
                 </div>
                 <div className="About">
-                    <p>Salih ÖZYURT</p>
+                    <p>Speaking english ? i live in english. it's not only language to me it's totally best way of expressing my own. you know, sometimes i'm dreaming of a world all people understand each other perfectly. yes i've a dream. imagine all the people dancing and touching each other, communicate in a joyful harmony. oğlum çay söyle bakma öyle sığır gibi! tea ?</p>
                 </div>
             </div>
         )
