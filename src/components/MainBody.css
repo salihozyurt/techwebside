@@ -13,13 +13,13 @@
 }
 
 .Main:hover {
-  transform: scale(1.4);
-  transform: translateXY(2vh);
+  transform: scale(1.2);
+  transform: translateXY(1vh);
   background-color: #1b1b2f8c;
 }
 
 .Main img {
-  height: 15vh;
+  height: 8vw;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -35,14 +35,14 @@
 
 .Main a {
   margin: 15vw auto;
-  width: 300px;
   display: flex;
   justify-content: space-around;
   display: inline;
-  margin: 0vh 5vh;
 }
 
 .Main .iconSet {
+  height: 8vh;
+  width: 8vw;
   transition: all 0.3s ease-in-out;
 }
 
@@ -60,4 +60,37 @@
 .Main {
   position: absolute;
   top: 0px;
+}
+
+@media screen and (max-width: 576px){
+  .Main {
+    font-family: monospace;
+    width: 80vw;
+    margin: 10vw 10vw;
+    background-color: #1b1b2f;
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border: 1px solid #e43f5a;
+    border-radius: 10px;
+  }
+
+  .Main > .About > p {
+    margin: 10px 10px;
+    font-size: 0.5rem;
+    color: #fff;
+  }
+
+  .Main .iconSet {
+    height: 4vh;
+    width: 8vw;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .Main .iconSet:hover {
+    transform: scale(1.2);
+    transform: translateXY(10vh);
+  }
+
 }
